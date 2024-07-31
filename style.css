@@ -1,0 +1,13 @@
+.reveal_posts article,
+.lsreveal {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0) !important;
+    transition: opacity 0.8s ease, transform 0.8s ease !important;
+}
+
+.reveal_posts article.reveal_visible,
+.lsreveal.reveal_visible {
+    opacity: 1 !important;
+    transform: translate3d(0, 0, 0) !important;
+    transition: opacity 0.8s ease, transform 0.8s ease !important;
+}
