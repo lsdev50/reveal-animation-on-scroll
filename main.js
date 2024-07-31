@@ -1,3 +1,4 @@
+// replace .lsreveal, .reveal_posts article with your selector
 jQuery(document).ready(function($) {
     let rafId = null;
     const DELAY = 400;
